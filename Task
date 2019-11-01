@@ -1,0 +1,94 @@
+TASK 1
+
+1.allen@allen-HP-ProBook-640-G1:~$ ls
+Desktop    Downloads         learning_unix  Pictures  Templates
+Documents  examples.desktop  Music          Public    Videos
+
+gives the list of folders and subfolders that are in the home directory 
+
+allen@allen-HP-ProBook-640-G1:~$ pwd
+/home/allen
+
+Shows the directory being worked on currently
+
+mkdir workspace
+cd workspace
+ls
+
+touch README.md
+
+Creates an .md file 
+
+cp README.md CHANGELOG.md
+
+TASK 2
+
+touch exercise.md
+
+mv exercise.md /tmp
+
+rm /tmp/exercise.md
+
+
+TASK 3
+
+
+touch umuzi.md recruits.md cohort.md
+
+nano umuzi.md
+nano recruits.md
+nano cohort.md 
+
+cat umuzi.md recruits.md cohort.md > summary.md
+
+echo >> summary.md "The End"
+
+
+TASK 4
+
+locate umuzi
+
+locate umuzi > search_results.md
+
+Task 5
+
+touch pad.md
+
+cd Desktop
+
+mkdir work
+
+cp ../Documents/pad.md pad_copy.md
+
+cd -
+
+locate pad_copy.md
+
+TASK 6
+
+find -name *.pdf
+
+find -name *.pdf > pdf_results
+
+find . -maxdepth 1 -newermt "10/29/19"
+
+TASK 7
+
+nano my_bio.md
+
+mkdir my_files
+
+mv my_bio.md my_files
+
+
+
+
+
+
+
+
+
+
+
+
+
